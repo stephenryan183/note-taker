@@ -2,23 +2,18 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "jest": "^27.2.0",
-    "inquirer": "^8.1.5"
-  },
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stephenryan183/note-taker.git"
+    "test": "jest",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stephenryan183/note-taker/issues"
-  },
-  "homepage": "https://github.com/stephenryan183/note-taker#readme"
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "inquirer": "^8.1.5",
+    "jest": "^27.2.0",
+    "uuid": "^8.3.2"
+  }
 }
